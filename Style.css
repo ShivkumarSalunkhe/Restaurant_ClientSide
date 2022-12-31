@@ -1,0 +1,72 @@
+ body{
+    background-color: rgb(202, 210, 210);
+}
+.Header img{
+    width: 45%;
+    height: 25vh;
+    display: block;
+    margin: 2% auto 2% auto;
+}
+
+.Navbar nav {
+    background-color: rgb(39, 46, 53);
+    border-radius: 20px;
+    color: rgb(247, 243, 238);
+    font-weight: bold;
+    font-size: 2rem;
+    width: 88%;
+    margin: 2% auto 2% auto;
+    display: block;
+    padding: 10px;
+    text-align: center;   
+}
+nav a{
+   padding: 20px;
+   cursor: pointer;
+}
+.main{ 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    block-size: 100%;
+    background-image: url('./Assects/finl.jpg');
+    background-color: rgb(31, 48, 42);
+    border-radius: 20px;
+    text-align: center;
+    margin: auto 5% auto 5%;
+}
+
+.para {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: rgb(39, 46, 53);
+    margin: auto 5% auto 5%;
+
+  }
+.para div{
+    margin:  2%;
+    padding:  5px 30px 10px 30px;
+    background-color:rgb(252, 238, 190);
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: justify;
+    font-style: oblique;
+  
+  }
+
+.art-head{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.foot img{
+    width: 7%;
+} 
+.foot{
+    display: flex;
+    font-weight: bold;
+    margin:2% 6%;
+    
+} 
+
